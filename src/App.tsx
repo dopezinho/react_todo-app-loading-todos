@@ -1,9 +1,6 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useEffect, useRef, useState } from 'react';
 import { UserWarning } from './UserWarning';
 import { getTodos, USER_ID } from './api/todos';
-// eslint-disable-next-line max-len
 import { ErrorNotification } from './Components/ErrorNotification/Error';
 import { Filter } from './Components/Filter/Filter';
 import { FilterStatus } from './types/FilterStatus';
